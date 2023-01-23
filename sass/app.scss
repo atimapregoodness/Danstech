@@ -207,9 +207,15 @@ footer{
             line-height: 1.5em;
         }
 
+        h5{
+            font-family: 'Barlow', sans-serif;
+        }
+
+
         .content{
             ul{
                 font-family: 'PT Sans Narrow', sans-serif;
+                list-style: none;
 
                 li{
                     line-height: 2em;
@@ -231,6 +237,10 @@ footer{
 
     hr{
         color: #fff;
+    }
+
+    span{
+        font-family: 'PT Sans Narrow', sans-serif;
     }
 }
 

@@ -144,8 +144,12 @@ footer .inside2 h4 {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 1.5em;
 }
+footer .inside2 h5 {
+  font-family: "Barlow", sans-serif;
+}
 footer .inside2 .content ul {
   font-family: "PT Sans Narrow", sans-serif;
+  list-style: none;
 }
 footer .inside2 .content ul li {
   line-height: 2em;
@@ -160,6 +164,9 @@ footer .social-media img {
 }
 footer hr {
   color: #fff;
+}
+footer span {
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
