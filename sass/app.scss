@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+#mainNavbar{
+    #nav-links{
+        ul{
+            li{
+                a{
+                    transition: 0.5s;
+                    text-decoration: none;
+
+                    
+
+                    &:hover{
+                        color: aqua;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section1{
+    background-image: url(/assets/background-gif-2.gif);
+    background-position: center;
+    background-size: cover;
+
+    .content{
+        background-color: rgb(0, 0, 0,0.6);
+        height: 35.1em; 
+
+        .text2{
+            h1{
+                padding-top: 1.4em; 
+                background-position: center; 
+                font-weight: 600;
+            }
+        }
+
+        .robot1{
+            img{
+                width: 200px; height: 200px;
+            }
+
+            .text{
+                h1{
+                    font-family: 'PT Sans Narrow', sans-serif; font-weight: 600; padding-top: 1.5em;
+                }
+
+                h2{
+                    font-family: 'PT Sans Narrow', sans-serif; font-weight: 400;
+                }
+            }
+        }
+
+        .alert{
+            button{
+                margin: auto;
+                justify-items: center;
+                display: flex;
+            }
+        }
+    }
+}
+
+.section6{
+    background-image: url(/assets/robot-bg-4.webp);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 3em;
+
+    .content{
+        background-color: rgb(0, 0, 0,0.6);
+        height: 35.1em; 
+        padding-top: 6em;
+
+        .text3{
+            padding-top: 1.4em; 
+            font-weight: 400;
+            font-family: 'PT Sans Narrow', sans-serif;
+            background-color: rgb(0, 0, 0,0.6);
+        }
+    }
+}
+
+.section2{
+    .text{
+        h1{
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-weight: 600; 
+            line-height: 1.5em;
+
+            span{
+                font-family: 'PT Sans Narrow', sans-serif;
+            }
+
+        }
+    }
+
+    .tech-img{
+        img{
+            width: 500px;
+        }
+    }
+}
+
+.section3{
+    padding-left: 2em;
+    h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 600;
+    }
+
+    h2{
+        text-align: justify;
+        font-family: 'PT Sans Narrow', sans-serif;
+        line-height: 1.8em;
+        padding-left: 1em;
+
+        p{
+            text-align: justify;
+            font-family: 'PT Sans Narrow', sans-serif;
+            line-height: 1.8em;
+        }
+
+        ol{
+            li{
+                text-align: justify;
+                font-family: 'PT Sans Narrow', sans-serif;
+                line-height: 1.8em;
+                font-weight: 600;
+
+                ul{
+                    li{
+                        text-align: justify;
+                        font-family: 'PT Sans Narrow', sans-serif;
+                        line-height: 1.8em;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-img{
+        height: 42em;
+
+        .img{
+            height: 3em;
+            
+
+
+            img{
+                width: 400px;
+                transition: 1s all;
+            }
+        }
+
+        button{
+            margin-top: 30em;
+        }
+    }
+}
+
+.top{
+    float: right;
+}
+
+.section5{
+    .row{
+        .group{
+            h3{
+                font-family: 'PT Sans Narrow', sans-serif;
+
+                p{
+                    font-family: 'PT Sans Narrow', sans-serif;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    margin: 0;
+
+
+    .inside{
+        .follow{
+            img{
+                width: 50px;
+            }
+
+            h3{
+                font-family: 'Barlow', sans-serif;
+            }
+        }
+    }
+
+    .inside2{
+        h4{
+            font-family: 'PT Sans Narrow', sans-serif;
+            line-height: 1.5em;
+        }
+
+        .content{
+            ul{
+                font-family: 'PT Sans Narrow', sans-serif;
+
+                li{
+                    line-height: 1.5em;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+        }
+    }
+
+    h4{
+        font-family: 'PT Sans Narrow', sans-serif;
+        line-height: 1.5em;
+    }
+    .social-media{
+        img{
+            width: 40px;
+        }
+    }
+
+    hr{
+        color: #fff;
+    }
+}
+
+    // font-family: 'Barlow', sans-serif;
+    // font-family: 'Hind Siliguri', sans-serif;
+    // font-family: 'Josefin Sans', sans-serif;
+    // font-family: 'Lato', sans-serif;
+    // font-family: 'PT Sans Narrow', sans-serif;
+    // font-family: 'Ubuntu', sans-serif;
+
+@media screen and (max-width: 600px) {
+    .section1{
+        margin-top: 5em;
+
+    }
+    .section1 .text h1{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 600px;
+        font-size: 30px;
+        padding: 0 2em 0 2em;
+    }
+
+    .section2{
+        .tech-img{
+
+            img{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .section3{
+        padding-left: 0.5em;
+    }
+}

@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+#mainNavbar #nav-links ul li a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+#mainNavbar #nav-links ul li a:hover {
+  color: aqua;
+}
+
+.section1 {
+  background-image: url(/assets/background-gif-2.gif);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .content {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 35.1em;
+}
+.section1 .content .text2 h1 {
+  padding-top: 1.4em;
+  background-position: center;
+  font-weight: 600;
+}
+.section1 .content .robot1 img {
+  width: 200px;
+  height: 200px;
+}
+.section1 .content .robot1 .text h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 600;
+  padding-top: 1.5em;
+}
+.section1 .content .robot1 .text h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+}
+.section1 .content .alert button {
+  margin: auto;
+  justify-items: center;
+  display: flex;
+}
+
+.section6 {
+  background-image: url(/assets/robot-bg-4.webp);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 3em;
+}
+.section6 .content {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 35.1em;
+  padding-top: 6em;
+}
+.section6 .content .text3 {
+  padding-top: 1.4em;
+  font-weight: 400;
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section2 .text h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+.section2 .text h1 span {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.section2 .tech-img img {
+  width: 500px;
+}
+
+.section3 {
+  padding-left: 2em;
+}
+.section3 h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 600;
+}
+.section3 h2 {
+  text-align: justify;
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.8em;
+  padding-left: 1em;
+}
+.section3 h2 p {
+  text-align: justify;
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.8em;
+}
+.section3 h2 ol li {
+  text-align: justify;
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.8em;
+  font-weight: 600;
+}
+.section3 h2 ol li ul li {
+  text-align: justify;
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+.section3 .content-img {
+  height: 42em;
+}
+.section3 .content-img .img {
+  height: 3em;
+}
+.section3 .content-img .img img {
+  width: 400px;
+  transition: 1s all;
+}
+.section3 .content-img button {
+  margin-top: 30em;
+}
+
+.top {
+  float: right;
+}
+
+.section5 .row .group h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.section5 .row .group h3 p {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+footer {
+  margin: 0;
+}
+footer .inside .follow img {
+  width: 50px;
+}
+footer .inside .follow h3 {
+  font-family: "Barlow", sans-serif;
+}
+footer .inside2 h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.5em;
+}
+footer .inside2 .content ul {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+footer .inside2 .content ul li {
+  line-height: 1.5em;
+  font-family: "Barlow", sans-serif;
+}
+footer h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.5em;
+}
+footer .social-media img {
+  width: 40px;
+}
+footer hr {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .section1 {
+    margin-top: 5em;
+  }
+  .section1 .text h1 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600px;
+    font-size: 30px;
+    padding: 0 2em 0 2em;
+  }
+  .section2 .tech-img img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .section3 {
+    padding-left: 0.5em;
+  }
+}/*# sourceMappingURL=app.css.map */
